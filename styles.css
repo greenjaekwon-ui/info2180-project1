@@ -171,3 +171,43 @@ img {
 .article-body a {
     color: #5A67D8;
 }
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.newsletter h3 {
+    margin-top: 0;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.newsletter input {
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    max-width: 100%;
+}
+
+.newsletter .btn {
+    background-color: #5A67D8;
+}
+
+footer {
+    background-color: #4A5568;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
