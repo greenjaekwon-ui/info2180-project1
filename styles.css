@@ -139,3 +139,35 @@ img {
     cursor: pointer;
     white-space: nowrap;
 }
+.stories {
+    padding: 50px 20px;
+}
+
+.stories h2 {
+    color: #5A67D8;
+    margin-top: 0;
+}
+
+.stories article {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.stories article img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.article-body h3 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.article-body a {
+    color: #5A67D8;
+}
